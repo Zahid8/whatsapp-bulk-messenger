@@ -50,7 +50,7 @@ delay = 30
 driver = webdriver.Chrome(ChromeDriverManager().install())
 print('Once your browser opens up sign in to web whatsapp')
 driver.get('https://web.whatsapp.com')
-input("Press ENTER after login into Whatsapp Web and your chats are visiable	.")
+input("Press ENTER after login into Whatsapp Web and your chats are visible	.")
 for idx, number in enumerate(numbers):
 	number = number.strip()
 	if number == "":
