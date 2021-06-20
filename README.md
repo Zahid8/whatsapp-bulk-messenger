@@ -16,7 +16,7 @@ Whatsapp Bulk Messenger uses selenium to automate sending of messages via Whatsa
 # Steps
 
 1. Enter the message you want to send inside `message.txt` file.
-2. Enter the list of numbers line-separated in `numbers.txt` file.
+2. Enter the list of numbers line-separated in `numbers.txt` file, in the form: countrycodephonenumber, example +919999999999 .
 3. Run `python automator.py`.
 4. Once the program starts, you'll see the message in message.txt and count of numbers in the numbers.txt file.
 5. After a while, Chrome should pop-up and open web.whatsapp.com.
